@@ -6,8 +6,8 @@ export const MenuItems =[
     icon:"fa-solid fa-house-user"
   },
   {
-    title: "Products",
-    url: "/products",
+    title: "Services",
+    url: "/Services",
     cName: "nav-links",
     icon:"fa-brands fa-servicestack"
   },
@@ -19,7 +19,7 @@ export const MenuItems =[
   },
   {
     title: "Portafolio",
-    url: "/portafolio",
+    url: "/Portafolio",
     cName: "nav-links",
     icon:"fa-solid fa-list"
   },
