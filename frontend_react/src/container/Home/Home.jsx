@@ -1,23 +1,25 @@
-import React from 'react'
-import Hero from '../../components/Hero/Hero'
-import { images } from '../../constants'
+import React from "react";
+import {Hero, Products} from "../../components";
 
+// import "../../components/Hero/Hero.scss"
+import { images } from "../../constants";
+import "./Home.scss";
 
 const Home = () => {
   return (
     <>
-   
-    <Hero
-    cName="hero"
-    heroImg={images.MainPage}
-    title="Design and Class"
-    text="The best option for your business"
-    buttonText="lets try"
-    url="/"
-    btnClass="show"/>    
+      <Hero
+        cName="hero"
+        heroImg={images.MainPage}
+        title="Design and Class"
+        text="The best option for your business"
+        buttonText="lets try"
+        url="/"
+        btnClass="show"
+      />
+      <Products/>
     </>
-    
-  )
-}
+  );
+};
 
-export default Home
+export default Home;

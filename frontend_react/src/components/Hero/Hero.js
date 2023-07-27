@@ -1,12 +1,13 @@
 import React from 'react'
 import { images } from '../../constants'
-
+import "./Hero.scss"
 
 const Hero = (props) => {
   return (
     <>
     <div className={props.cName}>
       <img src={props.heroImg} alt="Bg_image" />
+
 
       <div className='hero-text'>
         <h1>{props.title}</h1>

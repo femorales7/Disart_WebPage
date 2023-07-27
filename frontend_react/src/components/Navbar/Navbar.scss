@@ -1,5 +1,5 @@
 .app__navbar {
-  background-color: rgba(249, 246, 246, 0.25);
+  background-color: rgba(249, 246, 246, 0.5);
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -47,7 +47,7 @@
     }
 
     a {
-      color: var(--gray-color);
+      color: var(--dark);
       text-decoration: none;
       flex-direction: column;
       padding: 0.7rem 1rem;
@@ -69,7 +69,7 @@
     }
   }
 
-  @media screen and (max-width: 900px) {
+  @media screen and (max-width: 850px) {
     display: none;
   }
 }
@@ -99,12 +99,12 @@
   align-items: center;
 
   img {
-    width: 120px;
+    width: 80px;
     background: transparent;
 
     @media screen and (min-width: 2000px) {
       width: 180px;
-      height: 40px;
+      // height: 40px;
     }
   }
 }
