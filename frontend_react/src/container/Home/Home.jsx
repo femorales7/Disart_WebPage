@@ -1,5 +1,5 @@
 import React from "react";
-import {Hero, Products} from "../../components";
+import {Hero, Products, SlideImages} from "../../components";
 
 // import "../../components/Hero/Hero.scss"
 import { images } from "../../constants";
@@ -18,6 +18,7 @@ const Home = () => {
         btnClass="show"
       />
       <Products/>
+      
     </>
   );
 };
