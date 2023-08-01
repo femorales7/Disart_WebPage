@@ -1,0 +1,37 @@
+.Footer {
+  background: rgba(12, 12, 12, 0.55);
+  width: full;
+  border-top: 2 ;
+  border: solid;
+  border: #2222;
+  font-size: medium;
+  
+  // w-full border-t-2 border-solid border-dark 
+  //   font-medium text-lg dark:text-light dark:bg-dark dark:border-light sm:text-base
+
+  .firstDiv{
+    display: flex;
+    justify-items:center ;
+    justify-content: space-between;
+    padding: 12px 10px 12px 10px;
+    // py-8 flex items-center justify-between lg:flex-col lg:py-6
+
+  }
+
+  .link{
+
+    text-underline-offset:inherit ;
+
+
+    // underline
+    //       underline-offset-2
+  }
+.second {
+ 
+  display: flex;
+  justify-items: center ;
+  padding: 20px 10px 20px 10px;
+  // flex items-center lg:py-2
+}
+}
+
