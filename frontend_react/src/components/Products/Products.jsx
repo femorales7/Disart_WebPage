@@ -56,12 +56,21 @@ const Products = () => {
       <div id="eachProduct">
         <div>
           <SlideImages />
-          <SlideImages />
         </div>
         
         <div>
           <h1>Posters</h1>
           <p>Posters with unique design and costumized photos</p>
+        </div>
+      </div>
+      <div id="eachProduct">
+        <div>
+          <SlideImages />
+        </div>
+        
+        <div>
+          <h1>Marketing</h1>
+          <p>The best campaings of marketing for big companies</p>
         </div>
       </div>
       
