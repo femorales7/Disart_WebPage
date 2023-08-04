@@ -10,6 +10,7 @@ import Lucky from '../assets/imagesProducts/Lucky.png'
 import Lucky2 from '../assets/imagesProducts/Lucky2.png'
 import Optimus from '../assets/imagesProducts/Optimus.png'
 import vanskyStyle from '../assets/imagesProducts/vanskyStyle.png'
+import Hands4 from '../assets/imagesProducts/Hands4.png'
 
 
 export default {
@@ -25,5 +26,6 @@ export default {
   Lucky2,
   Optimus,
   vanskyStyle,
+  Hands4,
   
 };

@@ -43,6 +43,9 @@ const SlideImages = () => {
       <SwiperSlide className="ImagesSlide">
         <img src={images.Lucky} alt="Lucky Dog" />
       </SwiperSlide>
+      <SwiperSlide className="ImagesSlide">
+        <img src={images.Hands4} alt="Lucky Dog" />
+      </SwiperSlide>
     </Swiper>
   );
 };
