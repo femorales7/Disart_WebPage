@@ -50,7 +50,7 @@ const Products = () => {
           </div>
         </div>
       <div>
-        <h1>Popular Products</h1>
+        <h1 className="MainTitle" > Popular Products</h1>
         <p>Product with more demand</p>
       </div>
       <div id="eachProduct">
@@ -59,7 +59,7 @@ const Products = () => {
         </div>
         
         <div>
-          <h1>Posters</h1>
+          <h1 ><a href="/Portafolio">Posters</a></h1>
           <p>Posters with unique design and costumized photos</p>
         </div>
       </div>
@@ -69,7 +69,7 @@ const Products = () => {
         </div>
         
         <div>
-          <h1>Marketing</h1>
+          <h1><a href="/Portafolio">Marketing</a></h1>
           <p>The best campaings of marketing for big companies</p>
         </div>
       </div>

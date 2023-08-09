@@ -11,10 +11,12 @@
     color: #222;
   } 
 
-  h1 {
+  .MainTitle {
     padding-top: 30px;
     font-size:xx-large;
     color: #222;
+    text-decoration: underline;
+    padding-bottom: 10px;
   }
  
 padding-bottom: 50px;
@@ -44,8 +46,15 @@ padding-bottom: 50px;
     align-self:center;
     align-items: center;
   }
+
+  a {
+    color: #080808; /* Blue link color */
+    text-decoration:none;
+  }
   
-  
+  a:hover {
+    text-decoration: underline;
+  }
 
 }
 .Numbers {

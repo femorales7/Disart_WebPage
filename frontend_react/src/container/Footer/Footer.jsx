@@ -15,11 +15,11 @@ const Footer = () => {
             href="/"
             className="link"
           >
-            Fabian Morales
+            Disart
           </Link>
         </div>
 
-        <Link href="/about">About me</Link>
+        <Link href="/about">About Us</Link>
       </div>
     </footer>
   );
