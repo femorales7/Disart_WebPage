@@ -1,5 +1,5 @@
 import { React, useEffect, useRef } from "react";
-import { SlideImages } from "../../components";
+import { SlideImages, SlideMarketing } from "../../components";
 import { useInView, useSpring, useMotionValue } from "framer-motion";
 import "./Products.scss";
 const AnimatedNumbers = ({ value }) => {
@@ -30,51 +30,56 @@ const Products = () => {
   return (
     <div className="products">
       <div className="Numbers">
-          <div className="NumberItem">
-            <span className="NumberValue">
-              <AnimatedNumbers value={50} />+
-            </span>
-            <h2 className="NumberLabel">Satisfied clients</h2>
-          </div>
-          <div className="NumberItem">
-            <span className="NumberValue">
-              <AnimatedNumbers value={40} />+
-            </span>
-            <h2 className="NumberLabel">Projects Completed</h2>
-          </div>
-          <div className="NumberItem">
-            <span className="NumberValue">
-              <AnimatedNumbers value={4} />+
-            </span>
-            <h2 className="NumberLabel">Years of experience</h2>
-          </div>
+        <div className="NumberItem">
+          <span className="NumberValue">
+            <AnimatedNumbers value={50} />+
+          </span>
+          <h2 className="NumberLabel">Satisfied clients</h2>
         </div>
+        <div className="NumberItem">
+          <span className="NumberValue">
+            <AnimatedNumbers value={40} />+
+          </span>
+          <h2 className="NumberLabel">Projects Completed</h2>
+        </div>
+        <div className="NumberItem">
+          <span className="NumberValue">
+            <AnimatedNumbers value={4} />+
+          </span>
+          <h2 className="NumberLabel">Years of experience</h2>
+        </div>
+      </div>
       <div>
-        <h1 className="MainTitle" > Popular Products</h1>
+        <h1 className="MainTitle"> Popular Products</h1>
         <p>Product with more demand</p>
       </div>
       <div id="eachProduct">
         <div>
           <SlideImages />
         </div>
-        
+
         <div>
-          <h1 ><a href="/Portafolio">Posters</a></h1>
+          <h1>
+            <a href="/Portafolio">Posters</a>
+          </h1>
           <p>Posters with unique design and costumized photos</p>
         </div>
       </div>
       <div id="eachProduct">
-        <div>
-          <SlideImages />
+      <div>
+          <h1>
+            <a href="/Portafolio">Marketing</a>
+          </h1>
+          <p>We specialize in crafting visual identities that make a lasting impact. Our range of corporate image services goes beyond mere design – we create powerful statements 
+            that resonate with your audience and elevate your brand's presence.
+            Logo Design, Brochure Design, Branded Merchandise</p>
         </div>
-        
         <div>
-          <h1><a href="/Portafolio">Marketing</a></h1>
-          <p>The best campaings of marketing for big companies</p>
+          <SlideMarketing />
         </div>
-      </div>
-      
 
+        
+      </div>
     </div>
   );
 };

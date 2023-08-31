@@ -50,4 +50,46 @@ const SlideImages = () => {
   );
 };
 
-export default SlideImages;
+const SlideMarketing = () => {
+  return (
+    <Swiper
+      modules={[Navigation, Pagination, Scrollbar, A11y, EffectCube, EffectCards]}
+      effect={'cards'}
+      className="mySwiper"
+      // spaceBetween={50}
+      // slidesPerView={3}
+      loop={true}
+      // navigation
+      // pagination={{ clickable: true }}
+      // scrollbar={{ draggable: true }}
+      // onSlideChange={() => console.log("slide change")}
+      // onSwiper={(swiper) => console.log(swiper)}
+      
+    >
+      <SwiperSlide className="ImagesSlide">
+        <img src={images.imagen1} alt="Corporative Image" />
+      </SwiperSlide>
+      <SwiperSlide className="ImagesSlide">
+        <img src={images.imagen2} alt="Brochure" />
+      </SwiperSlide>
+      <SwiperSlide className="ImagesSlide">
+        <img src={images.imagen3} alt="Logos" />
+      </SwiperSlide>
+      <SwiperSlide className="ImagesSlide">
+        <img src={images.imagen4} alt="Logos" />
+      </SwiperSlide>
+      <SwiperSlide className="ImagesSlide">
+        <img src={images.imagen5} alt="Corporative image" />
+      </SwiperSlide>
+      <SwiperSlide className="ImagesSlide">
+        <img src={images.imagen6} alt="Marketing" />
+      </SwiperSlide>
+      
+    </Swiper>
+  );
+};
+
+export {SlideImages, SlideMarketing};
+
+
+
