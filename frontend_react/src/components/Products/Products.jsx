@@ -1,6 +1,7 @@
 import { React, useEffect, useRef } from "react";
 import { SlideImages, SlideMarketing } from "../../components";
 import { useInView, useSpring, useMotionValue } from "framer-motion";
+import '../../style.css'
 import "./Products.scss";
 const AnimatedNumbers = ({ value }) => {
   const ref = useRef(null);
@@ -62,7 +63,12 @@ const Products = () => {
           <h1>
             <a href="/Portafolio">Posters</a>
           </h1>
-          <p>Posters with unique design and costumized photos</p>
+          <p>Welcome to a world where posters become not just pieces of paper, 
+            but expressions of identity, messages that resonate, and visuals that captivate. 
+            At DISART, we don't just design posters; we craft immersive 
+            experiences that tell stories, evoke emotions, and leave a lasting impact.
+            Personalized Creativity,  Visual Storytelling, Tailored to Perfection, 
+            Versatility in Design, Innovative Design, Solutions for Every Budget, Impactful Results </p>
         </div>
       </div>
       <div id="eachProduct">

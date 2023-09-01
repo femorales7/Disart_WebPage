@@ -11,7 +11,7 @@ import Lucky2 from "../assets/imagesProducts/Lucky2.png";
 import Optimus from "../assets/imagesProducts/Optimus.png";
 import vanskyStyle from "../assets/imagesProducts/vanskyStyle.png";
 import Hands4 from "../assets/imagesProducts/Hands4.png";
-import imagen1 from "../assets/imagesProducts/Imagen1.jpg";
+import imagen1 from "../assets/imagesProducts/Imagen1.png";
 import imagen2 from "../assets/imagesProducts/Imagen2.jpg";
 import imagen3 from "../assets/imagesProducts/Imagen3.jpg";
 import imagen4 from "../assets/imagesProducts/Imagen4.jpg";

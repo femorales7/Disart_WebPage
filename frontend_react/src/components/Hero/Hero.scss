@@ -69,6 +69,32 @@ img {
   // .hero-text h1{
   //   // padding: 10px ;
   // }
+  .hero {
+    width: 100%;
+    height: 30vh;
+    position: relative;
+  }
+
+  .hero-text p {
+    font-size: 1.1rem;
+    padding: 0 0 2rem 0;
+  }
+
+  .hero-text .show {
+    padding: 0.6rem 1.1rem;
+    border-radius: 6px;
+    font-size: 1rem;
+  }
+}
+@media screen and (max-width: 850px) {
+  // .hero-text h1{
+  //   // padding: 10px ;
+  // }
+  .hero {
+    width: 100%;
+    height: 50vh;
+    position: relative;
+  }
 
   .hero-text p {
     font-size: 1.1rem;

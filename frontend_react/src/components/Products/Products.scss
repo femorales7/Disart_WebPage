@@ -82,3 +82,184 @@ padding-bottom: 50px;
   text-transform: capitalize;
   color: rgba(0, 0, 0, 0.75);
 }
+@media screen and (max-width: 850px) {
+  .products{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    // background-color: rgb(50, 51, 51);
+  
+     p{
+      padding-bottom: 30px;
+      font-size: large;
+      color: #222;
+    } 
+  
+    .MainTitle {
+      padding-top: 30px;
+      font-size:x-large;
+      color: #222;
+      text-decoration: underline;
+      padding-bottom: 30px;
+    }
+   
+  padding-bottom: 50px;
+  
+  }
+
+  #eachProduct {
+    display: flex ; 
+    flex-direction: column ;
+    justify-content: space-between;
+    padding-bottom: 20px;
+    div{
+      padding:0 30px 0 30px;
+      align-items: center;
+    }
+  
+    h1{
+      padding: 40px 0 20px 0;
+      display: flex;
+      justify-content: center;
+      align-self:center;
+      font-size: large;
+    }
+  
+    p{
+      display: flex;
+      justify-content: center;
+      align-self:center;
+      align-items: center;
+      padding-left: 80px;
+      padding-right: 80px;
+    }
+  
+    a {
+      color: #080808; /* Blue link color */
+      text-decoration:none;
+    }
+    
+    a:hover {
+      text-decoration: underline;
+    }
+  
+  }
+  .Numbers {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    max-width: 555px;
+  }
+  
+  .NumberItem {
+    flex: 1;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .NumberValue {
+    display: inline-block;
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  
+  .NumberLabel {
+    font-size: 0.8rem;
+    font-weight: medium;
+    text-transform: capitalize;
+    color: rgba(0, 0, 0, 0.75);
+  }
+}
+
+// @media screen and (max-width: 850px) {
+//   .products{
+//     display: flex;
+//     flex-direction: column;
+//     align-items: center;
+//     justify-content: center;
+//     // background-color: rgb(50, 51, 51);
+  
+//      p{
+//       padding-bottom: 20px;
+//       font-size: large;
+//       color: #222;
+//     } 
+  
+//     .MainTitle {
+//       padding-top: 30px;
+//       font-size:x-large;
+//       color: #222;
+//       text-decoration: underline;
+//       padding-bottom: 30px;
+//     }
+   
+//   padding-bottom: 50px;
+  
+//   }
+
+//   #eachProduct {
+//     display: flex ; 
+//     flex-direction: row ;
+//     justify-content: space-between;
+//     padding-bottom: 20px;
+//     div{
+//       padding:10 30px 0 30px;
+//       align-items: center;
+//     }
+  
+//     h1{
+//       padding: 10px 0 20px 0;
+//       display: flex;
+//       justify-content: center;
+//       align-self:center;
+//       font-size: large;
+//     }
+  
+//     p{
+//       font-size: medium;
+//       display: flex;
+//       justify-content: center;
+//       align-self:center;
+//       align-items: center;
+//       // padding-left: 80px;
+//       // padding-right: 80px;
+//     }
+  
+//     a {
+//       color: #080808; /* Blue link color */
+//       text-decoration:none;
+//     }
+    
+//     a:hover {
+//       text-decoration: underline;
+//     }
+  
+//   }
+//   .Numbers {
+//     display: flex;
+//     justify-content: space-between;
+//     margin: 0 auto;
+//     max-width: 655px;
+//   }
+  
+//   .NumberItem {
+//     flex: 1;
+//     text-align: center;
+//     padding: 20px;
+//   }
+  
+//   .NumberValue {
+//     display: inline-block;
+//     font-size: 2.5rem;
+//     font-weight: bold;
+//   }
+  
+//   .NumberLabel {
+//     font-size: 0.9rem;
+//     font-weight: medium;
+//     text-transform: capitalize;
+//     color: rgba(0, 0, 0, 0.75);
+//   }
+// }
+
